@@ -1,0 +1,188 @@
+/* MOBIL */
+.content {
+  background-image: radial-gradient(#fe9959, #fe4aa9); /*gradient*/
+  height: 250px; /*størrelse*/
+}
+.h1-1 {
+  position: absolute; /*position på h1-1*/
+  top: 173px; /*placering*/
+  left: 25px; /*placering*/
+  color: white; /*tekst farve*/
+}
+.h1-2 {
+  position: absolute; /*position på h1-2*/
+  top: 230px; /*placering */
+  left: 150px; /* placering */
+  color: white; /*tekst farve*/
+}
+.h1-3 {
+  display: flex;
+  justify-content: center; /*placere teksten*/
+  padding-top: 100px; /*rykker tekst fra heroimg*/
+}
+
+.grid_1-1-1 {
+  display: flex;
+  flex-direction: column; /*placer billeder lodret*/
+  justify-content: center; /*centrer lodret*/
+  align-items: center; /*centrer vandret*/
+  gap: 20px;
+}
+
+.grid_1-1-1 h2 {
+  font-size: 1.5rem; /*tekst størrelse*/
+  color: black; /*tekst farve*/
+}
+img {
+  margin: 6px; /*giver plads rundt om*/
+  padding: 2px; /*giver plads inden i*/
+}
+.me-pic {
+  width: 40%; /*størrelse*/
+  background-color: #fe4aa9; /*baggrundsfarve*/
+}
+.grid-3_2 {
+  display: flex;
+  flex-direction: column; /*placer billeder lodret*/
+  justify-content: center; /*centrer lodret*/
+  align-items: center; /*centrer vandret*/
+  text-align: center; /*centrer tekst*/
+}
+
+/* læs mere her knap */
+.ommig-knap {
+  background-color: var(--knap-color); /* farve på knap */
+  height: 16px; /*størrelse*/
+  font-size: 0.9rem; /* skrift størelse*/
+  font-family: Lato; /*font*/
+  /* margin-inline: auto;
+  display: block; */
+  text-decoration: none; /*fjerne streg under "link"*/
+  color: white; /*teskt farve*/
+  text-align: center; /*placerer teksten*/
+  padding: 2.5%; /*giver fylde*/
+  width: 90px; /*størrelsen på boksen*/
+  border-radius: 11px; /*afrundning*/
+}
+
+.ommig-knap:hover {
+  background-color: white; /*hvid farve*/
+  color: var(--knap-color); /*farve på tekst*/
+}
+
+/* hover på temaer*/
+.tema2 {
+  background-color: var(--tema2-color); /*farve*/
+}
+.tema2 img {
+  opacity: 0.4; /*gennemsigtighed*/
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s; /*glidende overgang for webkit*/
+  transition: opacity 0.35s, transform 0.35s; /*glidende overgang standart*/
+}
+
+.tema2:hover img {
+  opacity: 100; /*klart billede*/
+  -webkit-transform: scale(1); /*standart størrelse på billedet webkit*/
+  transform: scale(1); /*standart størrelse på billeder standart*/
+}
+
+.tema2 h2 {
+  position: absolute; /*placering*/
+  top: 595px; /*placering*/
+  left: 180px; /*placering*/
+}
+.tema2:hover h2 {
+  opacity: 0; /*fjerne tekst*/
+}
+
+.tema3 {
+  background-color: var(--tema3-color); /*farve*/
+}
+.tema3 img {
+  opacity: 0.4; /*gennemsigtighed*/
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s; /*glidende overgang for webkit*/
+  transition: opacity 0.35s, transform 0.35s; /*glidende overgang standart*/
+}
+
+.tema3:hover img {
+  opacity: 100; /*klart billede*/
+  -webkit-transform: scale(1); /*standart størrelse på billedet webkit*/
+  transform: scale(1); /*standart størrelse på billeder standart*/
+}
+.tema3 h2 {
+  position: absolute; /*placering*/
+  top: 835px; /*placering*/
+  left: 180px; /*placering*/
+}
+.tema3:hover h2 {
+  opacity: 0; /*fjerne tekst*/
+}
+.tema4 {
+  background-color: var(--tema4-color); /*farve*/
+}
+.tema4 img {
+  opacity: 0.4; /*gennemsigtighed*/
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s; /*glidende overgang for webkit*/
+  transition: opacity 0.35s, transform 0.35s; /*glidende overgang standart*/
+}
+
+.tema4:hover img {
+  opacity: 100; /*klart billede*/
+  -webkit-transform: scale(1); /*standart størrelse på billedet webkit*/
+  transform: scale(1); /*standart størrelse på billeder standart*/
+}
+.tema4 h2 {
+  position: absolute; /*placering*/
+  top: 1075px; /*placering*/
+  left: 155px; /*placering*/
+}
+.tema4:hover h2 {
+  opacity: 0; /*fjerne tekst*/
+}
+
+.tema5 {
+  background-color: var(--tema5-color); /*farve*/
+}
+.tema5 img {
+  opacity: 0.4; /*gennemsigtighed*/
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s; /*glidende overgang for webkit*/
+  transition: opacity 0.35s, transform 0.35s; /*glidende overgang standart*/
+}
+
+.tema5:hover img {
+  opacity: 100; /*klart billede*/
+  -webkit-transform: scale(1); /*standart størrelse på billedet webkit*/
+  transform: scale(1); /*standart størrelse på billeder standart*/
+}
+.tema5 h2 {
+  position: absolute; /*placering*/
+  top: 1320px; /*placering*/
+  left: 163px; /*placering*/
+}
+.tema5:hover h2 {
+  opacity: 0; /*fjerne tekst*/
+}
+
+.ommig {
+  background-color: var(--ommig-color); /*farve*/
+}
+.ommig img {
+  opacity: 0.4; /*gennemsigtighed*/
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s; /*glidende overgang for webkit*/
+  transition: opacity 0.35s, transform 0.35s; /*glidende overgang standart*/
+}
+
+.ommig:hover img {
+  opacity: 100; /*klart billede*/
+  -webkit-transform: scale(1); /*standart størrelse på billedet webkit*/
+  transform: scale(1); /*standart størrelse på billeder standart*/
+}
+.ommig h2 {
+  position: absolute; /*placering*/
+  top: 1559px; /*placering*/
+  left: 218px; /*placering*/
+}
+
+.ommig:hover h2 {
+  opacity: 0; /*fjerne tekst*/
+}
