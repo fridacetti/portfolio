@@ -1,0 +1,19 @@
+/*MOBIL*/
+h1 {
+  text-align: center;
+}
+.pic1 {
+  background-color: var(--boks1-color); /* Lyserød baggrund med 59% opacitet */
+  padding: 10px; /* Giver luft omkring indholdet */
+  border-radius: 10px; /* Runde hjørner */
+  box-shadow: 0 4px 8px rgba(255, 145, 94, 0.2); /* Tilføjer en blød skygge */
+  max-width: 800px; /* Begrænser bredden af slideshowet */
+  margin: 20px auto; /* Centrerer slideshowet */
+  position: relative; /* Gør det muligt at placere indhold absolut */
+}
+/* Stil til billeder */
+.pic1 {
+  width: 55%; /* Gør billedet responsivt og tilpasset containeren */
+  height: auto; /* Bevarer billedets proportioner */
+  display: block; /* Forhindrer utilsigtet mellemrum */
+}
