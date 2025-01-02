@@ -1,4 +1,9 @@
 /* MOBIL */
+img {
+  width: 95%;
+  margin: 6px; /*giver plads rundt om*/
+  padding: 2px; /*giver plads inden i*/
+}
 .content {
   background-image: radial-gradient(#fe9959, #fe4aa9); /*gradient*/
   height: 250px; /*størrelse*/
@@ -20,7 +25,6 @@
   justify-content: center; /*placere teksten*/
   padding-top: 100px; /*rykker tekst fra heroimg*/
 }
-
 .grid_1-1-1 {
   display: flex;
   flex-direction: column; /*placer billeder lodret*/
@@ -28,15 +32,12 @@
   align-items: center; /*centrer vandret*/
   gap: 20px;
 }
-
 .grid_1-1-1 h2 {
-  font-size: 1.5rem; /*tekst størrelse*/
+  font-size: 1.4rem; /*tekst størrelse*/
   color: black; /*tekst farve*/
+  text-align: center;
 }
-img {
-  margin: 6px; /*giver plads rundt om*/
-  padding: 2px; /*giver plads inden i*/
-}
+
 .me-pic {
   width: 40%; /*størrelse*/
   background-color: #fe4aa9; /*baggrundsfarve*/
@@ -71,6 +72,26 @@ img {
 }
 
 /* hover på temaer*/
+.tema2,
+.tema3,
+.tema4,
+.tema5,
+.ommig {
+  position: relative; /* Gør det muligt at placere overskriften absolut */
+  text-align: center; /* Centrerer tekst vandret */
+}
+/* Overskriften (h2) */
+.tema2 h2,
+.tema3 h2,
+.tema4 h2,
+.tema5 h2,
+.ommig h2 {
+  position: absolute; /* Placér h2 relativt til den omgivende container */
+  top: 42%; /* Flyt til midten lodret */
+  left: 49%; /* Flyt til midten vandret */
+  transform: translate(-50%, -50%); /*Justér for centrering*/
+}
+
 .tema2 {
   background-color: var(--tema2-color); /*farve*/
 }
@@ -86,11 +107,6 @@ img {
   transform: scale(1); /*standart størrelse på billeder standart*/
 }
 
-.tema2 h2 {
-  position: absolute; /*placering*/
-  top: 595px; /*placering*/
-  left: 180px; /*placering*/
-}
 .tema2:hover h2 {
   opacity: 0; /*fjerne tekst*/
 }
@@ -109,11 +125,7 @@ img {
   -webkit-transform: scale(1); /*standart størrelse på billedet webkit*/
   transform: scale(1); /*standart størrelse på billeder standart*/
 }
-.tema3 h2 {
-  position: absolute; /*placering*/
-  top: 835px; /*placering*/
-  left: 180px; /*placering*/
-}
+
 .tema3:hover h2 {
   opacity: 0; /*fjerne tekst*/
 }
@@ -132,9 +144,7 @@ img {
   transform: scale(1); /*standart størrelse på billeder standart*/
 }
 .tema4 h2 {
-  position: absolute; /*placering*/
-  top: 1075px; /*placering*/
-  left: 155px; /*placering*/
+  font-size: 1.16rem;
 }
 .tema4:hover h2 {
   opacity: 0; /*fjerne tekst*/
@@ -155,9 +165,7 @@ img {
   transform: scale(1); /*standart størrelse på billeder standart*/
 }
 .tema5 h2 {
-  position: absolute; /*placering*/
-  top: 1320px; /*placering*/
-  left: 163px; /*placering*/
+  font-size: 1.3rem;
 }
 .tema5:hover h2 {
   opacity: 0; /*fjerne tekst*/
@@ -176,11 +184,6 @@ img {
   opacity: 100; /*klart billede*/
   -webkit-transform: scale(1); /*standart størrelse på billedet webkit*/
   transform: scale(1); /*standart størrelse på billeder standart*/
-}
-.ommig h2 {
-  position: absolute; /*placering*/
-  top: 1559px; /*placering*/
-  left: 218px; /*placering*/
 }
 
 .ommig:hover h2 {

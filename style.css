@@ -2,8 +2,9 @@
   --baggrund-color: #f9eede;
   --streg-color: #f39c9c;
   --knap-color: #ff4daa;
-  --boks3-color: #ff915e;
-  --boks2-color: #fd7d74;
+  --boks1-color: #ff4daa96;
+  --boks2-color: #fd7d7496;
+  --boks3-color: #ff915e96;
   --tema2-color: #fe4aa9;
   --tema3-color: #fc5799;
   --tema4-color: #fe727e;
@@ -152,4 +153,11 @@ h2 {
 
 p {
   font-family: Lato;
+}
+
+/*LINK*/
+a {
+  text-decoration: none;
+  font-family: Lato;
+  color: var(--knap-color);
 }

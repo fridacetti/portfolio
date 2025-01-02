@@ -1,0 +1,155 @@
+/*FONT*/
+h1 {
+  text-align: center;
+}
+
+h2 {
+  margin-top: 20%;
+}
+
+/*figma-knap*/
+.figma-knap {
+  background-color: var(--knap-color); /* farve på knap */
+  height: 16px; /*størrelse*/
+  font-size: 0.9rem; /* skrift størelse*/
+  font-family: Lato; /*font*/
+  margin-inline: auto; /*placering*/
+  display: block; /*plavering*/
+  text-decoration: none; /*fjerne streg under "link"*/
+  color: white; /*teskt farve*/
+  text-align: center; /*placerer teksten*/
+  padding: 2.5%; /*giver fylde*/
+  width: 110px; /*størrelsen på boksen*/
+  border-radius: 11px; /*afrundning*/
+}
+
+.figma-knap:hover {
+  background-color: white; /*hvid farve*/
+  color: var(--knap-color); /*farve på tekst*/
+}
+
+/* Slideshow1 container */
+.slideshow1 {
+  background-color: var(--boks1-color); /* Lyserød baggrund med 59% opacitet */
+  padding: 20px; /* Giver luft omkring indholdet */
+  border-radius: 10px; /* Runde hjørner */
+  box-shadow: 0 4px 8px rgba(255, 77, 170, 0.2); /* Tilføjer en blød skygge */
+  max-width: 800px; /* Begrænser bredden af slideshowet */
+  margin: 20px auto; /* Centrerer slideshowet */
+  position: relative; /* Gør det muligt at placere indhold absolut */
+}
+
+/* Stil til billeder */
+.slideshow1 img {
+  width: 100%; /* Gør billedet responsivt og tilpasset containeren */
+  height: auto; /* Bevarer billedets proportioner */
+  display: block; /* Forhindrer utilsigtet mellemrum */
+}
+
+/* Stil til nummererings-teksten */
+.slideshow1 .number1 {
+  position: absolute; /* Gør det muligt at placere teksten absolut */
+  bottom: 1px; /* Placer teksten 10px fra bunden af containeren */
+  left: 50%; /* Placer teksten vandret i midten */
+  transform: translateX(-50%); /* Juster teksten til præcis midt i containeren */
+  color: white; /* Gør teksten synlig på en mørk baggrund */
+  font-size: 14px; /* Justér tekststørrelse */
+  font-weight: bold; /* Fremhæv teksten */
+  font-family: Lato;
+}
+
+/* Navigationsknapper */
+.slideshow1 .prev,
+.slideshow1 .next {
+  position: absolute; /* Placeres relativt til slideshow-containeren */
+  top: 50%; /* Centrer knapperne lodret */
+  transform: translateY(-50%); /* Justér centreringspunkt */
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent baggrund for knapper */
+  color: var(--knap-color); /* Knaptekstfarve */
+  padding: 10px; /* Størrelse af knapper */
+  cursor: pointer; /* Gør knappen klikbar */
+  border-radius: 50%; /* Runde knapper */
+  user-select: none; /* Forhindrer tekstmarkering */
+  border: none; /* Fjern standard kant */
+}
+
+/* Specifik placering af knapper */
+.slideshow1 .prev {
+  left: 10px; /* Placér til venstre i containeren */
+}
+
+.slideshow1 .next {
+  right: 10px; /* Placér til højre i containeren */
+}
+
+/* Slideshow2 container */
+.slideshow2 {
+  background-color: var(--boks2-color); /* Lyserød baggrund med 59% opacitet */
+  padding: 20px; /* Giver luft omkring indholdet */
+  border-radius: 10px; /* Runde hjørner */
+  box-shadow: 0 4px 8px rgba(253, 125, 116, 0.2); /* Tilføjer en blød skygge */
+  max-width: 800px; /* Begrænser bredden af slideshowet */
+  margin: 20px auto; /* Centrerer slideshowet */
+  position: relative; /* Gør det muligt at placere indhold absolut */
+}
+
+/* Stil til billeder */
+.slideshow2 img {
+  width: 100%; /* Gør billedet responsivt og tilpasset containeren */
+  height: auto; /* Bevarer billedets proportioner */
+  display: block; /* Forhindrer utilsigtet mellemrum */
+}
+
+/* Stil til nummererings-teksten */
+.slideshow2 .number2 {
+  position: absolute; /* Gør det muligt at placere teksten absolut */
+  bottom: 1px; /* Placer teksten 10px fra bunden af containeren */
+  left: 50%; /* Placer teksten vandret i midten */
+  transform: translateX(-50%); /* Juster teksten til præcis midt i containeren */
+  color: white; /* Gør teksten synlig på en mørk baggrund */
+  font-size: 14px; /* Justér tekststørrelse */
+  font-weight: bold; /* Fremhæv teksten */
+  font-family: Lato;
+}
+
+/* Navigationsknapper */
+.slideshow2 .prev,
+.slideshow2 .next {
+  position: absolute; /* Placeres relativt til slideshow-containeren */
+  top: 50%; /* Centrer knapperne lodret */
+  transform: translateY(-50%); /* Justér centreringspunkt */
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent baggrund for knapper */
+  color: #fd7d7a; /* Knaptekstfarve */
+  padding: 10px; /* Størrelse af knapper */
+  cursor: pointer; /* Gør knappen klikbar */
+  border-radius: 50%; /* Runde knapper */
+  user-select: none; /* Forhindrer tekstmarkering */
+  border: none; /* Fjern standard kant */
+}
+
+/* Specifik placering af knapper */
+.slideshow2 .prev {
+  left: 10px; /* Placér til venstre i containeren */
+}
+
+.slideshow2 .next {
+  right: 10px; /* Placér til højre i containeren */
+}
+
+/*produkt billed*/
+
+.produkt2 {
+  background-color: var(--boks3-color); /* Lyserød baggrund med 59% opacitet */
+  padding: 20px; /* Giver luft omkring indholdet */
+  border-radius: 10px; /* Runde hjørner */
+  box-shadow: 0 4px 8px rgba(255, 145, 94, 0.2); /* Tilføjer en blød skygge */
+  max-width: 800px; /* Begrænser bredden af slideshowet */
+  margin: 20px auto; /* Centrerer slideshowet */
+  position: relative; /* Gør det muligt at placere indhold absolut */
+}
+/* Stil til billeder */
+.produkt2 {
+  width: 89%; /* Gør billedet responsivt og tilpasset containeren */
+  height: auto; /* Bevarer billedets proportioner */
+  display: block; /* Forhindrer utilsigtet mellemrum */
+}
